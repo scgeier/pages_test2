@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SVG!</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Compare Two Images</h1>
+
+    <p>Click and slide the blue slider to compare two images:</p>
+    
+    <div class="img-comp-container">
+      <div class="img-comp-img">
+        <img src="after.png" width="300" height="200">
+      </div>
+      <div class="img-comp-img img-comp-overlay">
+        <img src="before.png" width="300" height="200">
+      </div>
+    </div>
+    
+    <div id="info-window"></div>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
